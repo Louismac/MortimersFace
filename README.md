@@ -17,6 +17,19 @@ To do this, right click on the SuperCollider application, then go contents>Resou
 
 You’ll then need to recompile supercolliders class library if its already open (open and closing it will do the same thing)
 
-Then there is a sketch called Mortimer.scd, this should allow you to test the drums and head.
+Then there is a sketch called Mortimer.scd, this should allow you to test the face!
+
+a = NDrumFace.new(true,nil)
+a.fnTension;
+a.fnFrownBrows;
+a.fnFrown;
+a.fnExclamation(0.4);
+a.fnSmile;
+a.fnElevated;
+a.fnInquisitive
+a.fnOpenMouth
+a.fnCloseMouth
+a.fnStopBlinking
+a.fnStartBlinking
 
 You’ll need to put the iPad on the same network as the computer and put its IP address into the sketch.
