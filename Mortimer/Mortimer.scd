@@ -1,18 +1,4 @@
 
-//Set Up Drums
-(
-a = DrumOut.new();
-a.addArm(\sd,33,0.05);
-a.addArm(\bd,35,0.09);
-a.addArm(\hh,31,0.06);
-)
-
-//Test Drums
-a.strike(\sd);
-
-a.strike(\bd);
-
-a.strike(\hh);
 
 //Set up Head+Face
 (
